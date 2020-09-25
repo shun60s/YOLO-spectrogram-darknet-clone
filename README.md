@@ -1,4 +1,4 @@
-# darknet clone   
+# YOLO spectrogram darknet clone   
 
 This is a try of spectrogram detector by yolo cloned from AlexeyAB/darknet.git.   
 
@@ -22,10 +22,16 @@ valid(test) data
 ![figure4](predictions-img35-thresh0_1.jpg)  
 
 
-### loss and mAP(mean Average Precision)    
+## loss and mAP(mean Average Precision)    
 mAP is still not good.  
 
 ![figure5](chart_yolov3-obj.png)   
+
+
+## train and test  
+
+Please refer to learn4-bat.sh and test4-bat.sh.   
+
 
 
 
