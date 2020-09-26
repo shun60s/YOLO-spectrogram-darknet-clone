@@ -1,13 +1,19 @@
 import glob, os
+import argparse
 
 #
 # This is a porting from https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
 # of which author is Nils Tijtgat.
 
+# specify task name directory path
+parser = argparse.ArgumentParser(description='make train.txt and test.txt')
+parser.add_argument('--dir_path', '-d', default='task1/', help='task name directory path')
+args = parser.parse_args()
+dir_path= args.dir_path
 
 # Current directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
-task_name = os.path.join(current_dir, 'task1/')
+task_name = os.path.join(current_dir, dir_path)  #'task1/')
 
 # Directory where the data will reside, relative to 'darknet.exe'
 path_data = task_name + 'datasets/'
