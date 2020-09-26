@@ -1,0 +1,5 @@
+classes= 2
+train = task2/train.txt
+valid = task2/test.txt
+names = task2/voice.names
+backup = task2/backup
