@@ -1,11 +1,12 @@
 # YOLO spectrogram darknet clone   
 
 This is a try of spectrogram detector by yolo cloned from AlexeyAB/darknet.git.   
+Sound tagging (Audio tagging) commonly uses whole spectrogram. This aims to detect local area in spectrogram, which has any specific feature.   
 
 
 ## condition    
 
-This time, train and test size is very small, 84 and 20.   
+This time, number of train and test is very small, 84 and 20.   
 There are only two classes, voice and instrument, that means bent lines and flat lines,  
 although they don't mean true voice and true instrument.   
 
@@ -31,6 +32,9 @@ mAP is still not good.
 ## train and test  
 
 Please refer to learn4-bat.sh and test4-bat.sh.   
+And also refer to learn5-bat.sh to add number of train and test size.   
+
+
 
 
 
