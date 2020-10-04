@@ -33,7 +33,9 @@ mAP is still not good.
 
 Please refer to learn4-bat.sh and test4-bat.sh.   
 And also refer to learn5-bat.sh to add number of train and test.   
-
+  
+  
+Please refer making_spectrogram folder about making this dataset.  
 
 
 
