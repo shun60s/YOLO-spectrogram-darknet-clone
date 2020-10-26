@@ -39,6 +39,13 @@ Please refer making_spectrogram folder about making this dataset.
 
 
 
+## related links  
+
+to contonued in [github repository](https://github.com/shun60s/harmonic-structure-parts-detect/)  
+
+
+
+
 
 
 
